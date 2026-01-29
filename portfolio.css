@@ -17,6 +17,24 @@
   color: white;
   cursor: pointer;
 }
+.section-heading {
+  max-width: 827px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.section-heading h2 {
+  font-size: 35px;
+  font-weight: 700;
+  color: #181818;
+  margin-bottom: 15px;
+}
+.section-heading p {
+  font-size: 18px;
+  margin-bottom: 30px;
+  color: #181818;
+  line-height: 30px;
+}
 .logo h2 {
   font-size: 45px;
   font-weight: 900px;
@@ -26,6 +44,12 @@
 }
 header {
   background-color: #fff8f3;
+  background-image: url("images/developer.png"), url("images/header_bg.png");
+  background-position:
+    top left,
+    bottom right;
+  background-repeat: no-repeat;
+
   padding-top: 66px;
 }
 nav {
@@ -82,4 +106,29 @@ nav .menu a {
   height: 676px;
   vertical-align: middle;
   margin:;
+}
+
+#about {
+  padding-top: 130px;
+}
+#about .about-container {
+  width: 150%;
+  max-width: 1140px;
+  margin: 0px auto;
+  text-align: center;
+  background-color: #fff8f3;
+  padding: 131px 156px;
+}
+#about .about-container .about-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.about-info .info-card {
+  font-size: 20px;
+  line-height: 30px;
+  color: #181818;
+}
+.about-info .info-card h4 {
+  font-size: 20px;
 }
