@@ -326,5 +326,8 @@ background-position:bottom right;
 background-repeat: no-repeat;
 padding-top: 66px;
 }
+.button-gap {
+  margin-bottom: 15px; 
+}
 }
 
